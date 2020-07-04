@@ -1,0 +1,161 @@
+*{
+	font-family: 'Segoe UI', sans-serif;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex_row{
+	display:flex;
+}
+.page-header { 
+	background: url(https://images.pexels.com/photos/7374/startup-photos.jpg?cs=srgb&dl=working-woman-technology-computer-7374.jpg&fm=jpg)no-repeat; 
+	position: relative; 
+	background-size: cover; 
+}
+.page-caption { 
+	padding-top: 170px; 
+	padding-bottom: 174px; 
+}
+.page-title { 
+	font-size: 46px; 
+	line-height: 1; 
+	color: black; 
+	font-weight: 600; 
+	text-align: center;
+	font-family: 'stencil';  
+}
+.card-section { 
+	position: relative; 
+	 
+}
+.card-block { 
+	padding: 10px; 
+}
+.section-title { 
+	margin-bottom: 10px; 
+}
+.nav_bar {
+  position: absolute;
+  width: auto;
+right:0;  
+ }
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: inherit;
+     
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #edefef;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav > .menu:hover{
+    border-bottom: 16px;
+    border-color:red;
+}
+.csize{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+a { 
+	text-decoration: none;
+	color: #8d8f90; 
+	-webkit-transition: all 0.3s; 
+	-moz-transition: all 0.3s; 
+	transition: all 0.3s; 
+}
+.menu:hover {
+ text-decoration: none; 
+ background-color: #f85759; 
+}
+body { 
+	-webkit-font-smoothing: antialiased; 
+	text-rendering: optimizeLegibility; 
+	font-family: 'Segoe UI', sans-serif; 
+	letter-spacing: 0px; 
+	font-size: 17px; 
+	color: #8d8f90; 
+	font-weight: 400; 
+	line-height: 32px; 
+	background-color: #edefef; 
+}
+.card-section { 
+	position: relative; 
+	bottom: 60px; 
+	width:60%;
+}
+.card-block { 
+	padding: 80px;
+	background-color: white;
+
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.section-title { 
+	margin-bottom: 60px; 
+}
+.flex_container{
+	display:flex;
+	justify-content: center;
+}
+.flex_container > div{
+	
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-right:30px;
+	margin-left:16px;
+	font-size: 18px;
+	font-weight: 700;
+	height: auto;
+	min-height: 100px;
+	width:auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.flex_container > a:hover {
+	width:100;
+	height:100;
+	color:red;
+}
+button{
+	display: inline-block;
+	font-weight: 400;
+	background-color: #28a745;	
+	width:60%;
+	color:white;
+	font-size:20px;
+	margin-top: 26px;
+	border: 1px solid transparent;
+  	padding: 0.375rem 0.75rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+	font-family: "Segoe UI";
+	right:0;
+}
+button.view_more:hover{
+	cursor:pointer;
+	background: #28a745 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+footer{
+	background-color: black;
+	opacity: 0.8;
+	margin-top:34px;
+	color:white;
+}
+.iconImg:hover{
+	background-color: #DAA520;
+}
+
